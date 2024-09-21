@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waste Collection Buy Page</title>
+    <link rel="stylesheet" href="stylebuy.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Waste Collection Buy Page</h1>
+        <form id="wasteForm">
+            <label for="wasteType">Type of Waste:</label>
+            <select id="wasteType" required>
+                <option value="">Select...</option>
+                <option value="plastic">Plastic</option>
+                <option value="paper">Paper</option>
+                <option value="metal">Metal</option>
+                <option value="glass">Glass</option>
+                <option value="organic">Organic</option>
+                <option value="e-waste">E-Waste</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="quantity">Quantity:</label>
+            <select id="quantity" required>
+                <option value="">Select...</option>
+                <option value="less-than-1kg">Less than 1 kg</option>
+                <option value="1-5kg">1-5 kg</option>
+                <option value="6-10kg">6-10 kg</option>
+                <option value="11-20kg">11-20 kg</option>
+                <option value="more-than-20kg">More than 20 kg</option>
+            </select>
+
+            <label for="remarks">Remarks:</label>
+            <textarea id="remarks" rows="4"></textarea>
+
+            <button type="submit">Submit Your Offer</button>
+        </form>
+        <div id="message" class="message"></div>
+    </div>
+
+    <script src="scriptbuy.js"></script>
+</body>
+</html>

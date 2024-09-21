@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waste Selling Page</title>
+    <link rel="stylesheet" href="stylesell.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Sell Your Waste</h2>
+        <form id="wasteForm">
+            <label for="wasteType">Type of Waste:</label>
+            <select id="wasteType" name="wasteType" required>
+                <option value="" disabled selected>Select waste type</option>
+                <option value="plastic">Plastic</option>
+                <option value="paper">Paper</option>
+                <option value="metal">Metal</option>
+                <option value="glass">Glass</option>
+                <option value="organic">Organic</option>
+            </select>
+
+            <label for="quantity">Quantity (kg):</label>
+            <input type="number" id="quantity" name="quantity" required min="1">
+
+            <label for="wasteImage">Upload Image:</label>
+            <input type="file" id="wasteImage" name="wasteImage" accept="image/*" required>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="message"></div>
+    </div>
+
+    <script src="scriptsell.js"></script>
+</body>
+</html>

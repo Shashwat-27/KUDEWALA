@@ -1,0 +1,258 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #28a745;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    background-image: url(Plastic-Waste-min.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    position: relative;
+    background-color:  #d4edda;
+    padding: 100px 10px ;
+    text-align: center;
+}
+
+
+#hero h1 {
+    font-size: 36px;
+}
+
+
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #050606;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 25px;
+    margin: 0px 0;
+    background: white;
+    border-radius: 5px;
+}
+
+h2{
+   text-decoration: underline; 
+}
+
+footer {
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    footer {
+        background-color: #2c3e50;
+        color: white;
+        padding: 20px 0;
+    }
+    
+    .footer-container {
+        display: flex;
+        justify-content: space-around;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .footer-section {
+        width: 30%;
+    }
+    
+    .footer-section h2 {
+        border-bottom: 2px solid #2980b9;
+        padding-bottom: 10px;
+    }
+    
+    .footer-section p {
+        line-height: 1.6;
+    }
+    
+    .socials a {
+        color: #2980b9;
+        text-decoration: none;
+    }
+    
+    .socials a:hover {
+        text-decoration: underline;
+    }
+    
+    .map-container {
+        margin-top: 10px;
+        
+    }
+    
+    @media (max-width: 768px) {
+        .footer-container {
+            flex-direction: column;
+            align-items: center;
+        }
+        .footer-section {
+            width: 80%;
+            margin-bottom: 20px;
+        }
+    }
+    /* text-align: center;
+    padding: 15px;
+    background: #28a745;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%; */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #218838;
+}
+
+.sell-button{
+    color: green;
+    background: rgb(191, 89, 89);
+    border-radius: 5PX;
+    
+}
+#about{
+    background-color: #0eb72d;
+}
+#services{
+    background-color:#0eb72d;
+
+}
+#contact{
+    background-color:#0eb72d;
+
+}
+.footbar{
+    background-color:#0eb72d;
+}
+#subut{
+    background-color:#0eb72d;
+}
+.technology{
+
+    /* body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    } */
+    
+    .tech-section {
+        padding: 40px 20px;
+        text-align: center;
+        background-color: #ffffff;
+    }
+    
+    .tech-section h2 {
+        color: #2c3e50;
+        margin-bottom: 20px;
+    }
+    
+    .tech-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .tech-item {
+        background: #eef2f3;
+        border-radius: 8px;
+        padding: 20px;
+        width: 250px;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    
+    .tech-item img {
+        max-width: 100%;
+        border-radius: 5px;
+    }
+    
+    .tech-item h3 {
+        color: #2980b9;
+        margin: 10px 0;
+    }
+    
+    .tech-item p {
+        color: #555;
+    }
+    
+    .tech-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+}
+.top:hover{
+    background-color: #28a745;
+    display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+}
+.buy-button{
+    color: green;
+    background: rgb(191, 89, 89);
+    border-radius: 5PX;
+    
+}
